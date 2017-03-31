@@ -1,5 +1,4 @@
 var runningTotal;
-
 var buttons = Array.prototype.slice.call(document.querySelectorAll('button'));
 
 var handleComputation = function(event){
@@ -33,19 +32,3 @@ var handleComputation = function(event){
 buttons.forEach(function(button) {
   button.addEventListener('click', handleComputation, false);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
